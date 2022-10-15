@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja weather</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container my-5 mx-auto">
+        <h1 class="text-muted text-center my-4">Ninja Weather</h1>
+           <form action="" class="change-location my-4 text-muted text-center">
+            <label for="city">Enter the location for weather information</label>
+            <input type="text" name="city" class="form-control p-4">
+            <div class="card shadoe-lg rounded"></div>
+            <img src="https://via.placeholder.com/400x300" class="time card-img-top">
+            <div class="icon bg-light mx-auto text-center">
+
+            </div>
+            <div class="text-muted text-uppercase text-center detail">
+                <h5 class="my-3">City Name</h5>
+                <div class="my-3">Whether Condition</div>
+                <div class="display-4 my-4"></div>
+                <span>Temp</span>
+                <span>&deg;C</span>
+            </div>
+        </form>
+    </div>
+    <script src="script/app.js"></script>
+    <script src="script/forecast.js"></script>
+</body>
+</html>
